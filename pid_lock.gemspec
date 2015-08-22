@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'pid_lock/version'
+require 'pid_lock'
 
 Gem::Specification.new do |spec|
   spec.name          = "pid_lock"
   spec.version       = PidLock::VERSION
   spec.authors       = ["xuxiangyang"]
-  spec.email         = ["xxy@creatingev.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.email         = ["54049924@qq.com"]
+  spec.summary       = %q{ruby pid lock file}
+  spec.description   = %q{ruby pid lock file}
+  spec.homepage      = "https://github.com/xuxiangyang/go_chanel"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
