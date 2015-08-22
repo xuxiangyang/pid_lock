@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["54049924@qq.com"]
   spec.summary       = %q{ruby pid lock file}
   spec.description   = %q{ruby pid lock file}
-  spec.homepage      = "https://github.com/xuxiangyang/go_chanel"
+  spec.homepage      = "https://github.com/xuxiangyang/pid_lock"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
