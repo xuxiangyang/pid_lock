@@ -33,7 +33,7 @@ module PidLock
       return unless File.exists?(File.join(pid_path, "#{pid_name}.pid"))
       pid = File.read(File.join(pid_path, "#{pid_name}.pid"))
       unless pid.to_s.empty?
-        Process.kill("QUIT", pid.to_i) rescue nil
+        Process.kill("TERM", pid.to_i) rescue nil
       end
       unlock(pid_name)
     end
